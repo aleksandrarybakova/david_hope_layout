@@ -1,0 +1,571 @@
+/* Типографика */
+.title_gray{
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.18px;
+    text-align: center;
+
+    margin: 0px;
+}
+
+.title_white{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.18px;
+    text-align: center;
+
+    margin: 0px;
+}
+
+.description_gray{
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    line-height: 25.33px;
+
+    margin: 0px;
+}
+
+.description_white{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+
+    margin: 0px;
+}
+
+/* Первый экран */
+#intro{
+    /* height: 768px; */
+    height: 100vh;
+    background-image: url("../img/1intro/bg_intro.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    position: relative;
+    padding-top: 26px;
+    padding-bottom: 98px;
+}
+
+#logo{
+    margin-left: -15px;
+}
+
+#intro_title{
+    margin-top: 107px;
+}
+
+#intro_subtitle{
+    margin-top: 32px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 11px;
+    line-height: 1.5;
+
+    margin: 0px;
+}
+
+#intro_arrow{
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+}
+
+/* Второй экран - information  */
+#info{
+    /* height: 425px; */
+    background-color: #f7f9fa;
+    padding-top: 70px;
+    padding-bottom: 68px;
+}
+
+.info_decor{
+    margin-top: 23px;
+}
+
+#info_text{
+    margin-top: 25px;
+    padding: 0px;
+}
+
+#info_button{
+    height: 48px;
+    width: 196px;
+    border-radius: 2px;
+    border: 4px solid #3e3362;
+    background-color: #ffffff;
+
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    margin-top: 65px;
+}
+
+#info_button:hover{
+    background-color: #3e3362;
+    color: #ffffff;
+}
+
+#info_button:focus{
+    box-shadow: none;
+}
+
+/* Третий экран - about */
+#about{
+    /* height: 517px; */
+    background-color: #f7f9fa;
+}
+
+#pic1{
+    background-image: url("../img/3about/bg-couple.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 517px;
+
+    padding-top: 154px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#pic2{
+    background-image: url("../img/3about/bg-bird.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 517px;
+}
+
+#about_content{
+    width: 570px;
+    padding-right: 11%;
+    padding-left: 11%;
+    margin-left: auto;
+}
+
+#about_subtitle{
+    color: #ffffff;
+    opacity: 0.2;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    text-align: center;
+
+    margin: 0px;
+    padding-top: 17px;
+}
+
+#about_text{
+    padding-top: 53px;
+}
+
+
+/* Четвертый экран - follow us */
+#follow{
+    /* height: 325px; */
+    background-color: #f7f9fa;
+
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+
+#follow_decor{
+    margin-top: 15px;
+}
+
+#follow_text{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+/* Пятый экран - gallery */
+#gallery{
+    background-color: #3e3362;
+ }
+
+#block1{
+    background-image: url("../img/5gallery/bg-forest.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 486px;
+}
+
+#gallery_desc{
+    padding-top: 184px;
+    text-align: center;
+}
+
+#gallery_text1{
+    padding-top: 44px;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+#block2{
+    background-image: url("../img/5gallery/mountain.jpg");
+    background-size: cover;
+    background-position: center;   
+    height: 543px;
+}
+
+#block3{
+    background-image: url("../img/5gallery/fire.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+}
+
+#block4{
+    background-image: url("../img/5gallery/lake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 369px;
+}
+
+#block5{
+    background-color: #f7f9fa;
+    height: 369px;
+
+    padding-top: 106px;
+}
+
+#block5_text{
+    text-align: center;
+    padding-top: 23px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#gallery_button{
+    height: 47px;
+    width: 157px;
+    border-radius: 2px;
+    border: 4px solid #3e3362;
+    background-color: #ffffff;
+
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    margin-top: 35px;
+}
+
+#gallery_button:hover{
+    background-color: #3e3362;
+    color: #ffffff;
+}
+
+#gallery_button:focus{
+    box-shadow: none;
+}
+
+/* Шестой экран - join us */
+#join{
+    /* height: 446px; */
+    background-color: #f7f9fa;
+
+    padding-top: 67px;
+    padding-bottom: 108px;
+    position: relative;
+}
+
+#join_text{
+    margin-top: 24px;
+    padding: 0px;
+}
+
+#join_button{
+    height: 48px;
+    width: 156px;
+    border-radius: 2px;
+    border: 4px solid #3e3362;
+    background-color: #ffffff;
+
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    margin-top: 48px;
+}
+
+#join_button:hover{
+    background-color: #3e3362;
+    color: #ffffff;
+}
+
+#join_button:focus{
+    box-shadow: none;
+}
+
+/* Седьмой экран - map */
+#map{
+    /* height: 385px; */
+    background-image: url("../img/7map/bg-map.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 87px;
+    padding-bottom: 96px;
+}
+
+#map_button{
+    height: 48px;
+    width: 156px;
+    border-radius: 2px;
+    border: 4px solid #ffffff;
+    background-color: none;
+
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    /* padding: 0px 45px; */
+    margin-top: 44px;
+}
+
+#map_button:hover{
+    background-color: #fdfdfd;
+    color: #3e3362;
+}
+
+#map_button:focus{
+    box-shadow: none;
+}
+
+#map_text{
+    padding-top: 42px;
+}
+
+#decor_align{
+    position: absolute;
+    left: 49.33%;
+    top: 97%;
+}
+
+/* Футер */
+footer{
+    /* height: 102px; */
+    background-color: #2b2344;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+#footer_icons{
+    text-align: right;
+}
+
+.sm_icon {
+    padding-left: 24px;
+    color: #ffffff;
+    font-size: 27px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.sm_icon:hover{
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* Медиа запросы */
+
+/* Смартфоны - вертикальная ориентация */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    /* Первый экран */
+    #logo{
+        padding-left: 15px;
+        margin-left: 0px;
+    }
+
+    #intro_img{
+        width: 300px;
+    }
+
+    span{
+        display: none;
+    }
+
+    /* Третий экран-about */
+    #about_content{
+        width: 315px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #pic2{
+        height: 400px;
+    }
+
+    /* Пятый экран - gallery */
+    #gallery_desc{
+        padding-top: 50%;
+    }
+
+    #gallery_text1, #block5_text{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    #block2, #block3, #block4{
+        height: 400px;
+    }
+
+    #block5{
+        padding-top: 25%;
+        border-bottom: 1px solid rgba(62, 51, 98, 0.2);
+    }
+
+    /* Футер */
+    .sm_icon{
+        padding-left: 20px;
+    }
+}
+
+/* Смартфоны - горизонтальная ориентация; планшеты */
+@media (min-width: 481px) and (max-width: 767px){
+    /* Первый экран */
+    #logo{
+        padding-left: 15px;
+        margin-left: 0px;
+    }
+
+    #intro_arrow{
+        display: none;
+    }
+
+    #intro_title{
+        margin-top: 10%;
+    }
+
+    #intro_img{
+        width: 460px;
+    }
+
+    /* Третий экран-about */
+    #about_content{
+        width: 400px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Пятый экран - gallery */
+    #gallery_desc{
+        padding-top: 20%;
+    }
+
+    #block1, #block2, #block3, #block4, #block5{
+        height: 400px;
+    }
+
+    #block5{
+        border-bottom: 1px solid rgba(62, 51, 98, 0.2);
+    }
+
+    /* Футер */
+    .sm_icon{
+        padding-left: 40px;
+    }
+}
+
+/* Планшеты - горизонтальная ориентация */
+@media (min-width: 768px) and (max-width: 1023px){
+
+    /* Первый экран */
+    #intro_title{
+        margin-top: 5%;
+    } 
+
+    #intro_img{
+        width: 460px;
+    }
+
+    /* Третий экран-about */
+    #about_content{
+        width: 500px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Пятый экран - gallery */
+    #block1, #block2{
+        height: 400px;
+    }
+
+    #block4, #block5{
+        height: 400px;
+    }
+
+    #block5{
+        padding-top: 12%;
+    }
+
+    #gallery_desc{
+        padding-top: 30%;
+    }
+
+    #gallery_text1{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    /* Футер */
+    .sm_icon{
+        padding-left: 40px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+
+    #decor_align{
+        display: none;
+    }
+
+    /* Футер */
+    #footer_icons{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer_rights{
+        text-align: center;
+    }
+
+    .sm_icon:first-child{
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 1500px) {
+    #decor_align{
+        display: none;
+    }
+}
